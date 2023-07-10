@@ -1,0 +1,18 @@
+body {
+  background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+@media screen and (max-width:1024px) {
+  #logo-png {
+    width: 35% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #logo-png {
+    width: 75% !important;
+    margin-left: 0% !important;
+  }
+}
