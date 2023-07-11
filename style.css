@@ -4,15 +4,18 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+#logo-png {
+  width:10% ;
+}
 @media screen and (max-width:1024px) {
   #logo-png {
-    width: 35% !important;
+    width:15% !important;
   }
 }
 
 @media screen and (max-width: 480px) {
   #logo-png {
-    width: 75% !important;
+    width: 28% !important;
     margin-left: 0% !important;
   }
 }
